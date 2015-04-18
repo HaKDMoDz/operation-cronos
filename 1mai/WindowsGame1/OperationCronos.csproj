@@ -1,0 +1,279 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>{5E7FE725-23E2-4309-805C-4DF9A3C479E5}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Operation_Cronos</RootNamespace>
+    <AssemblyName>OperationCronos</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>d80a5c5a-37a6-4ced-817a-409a764946cd</XnaCrossPlatformGroupID>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>Cronos.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>False</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandCenter\CommandCenter.cs" />
+    <Compile Include="CommandCenter\CommandCenterDidYouKnowPanel.cs" />
+    <Compile Include="CommandCenter\CommandCenterEventArgs.cs" />
+    <Compile Include="CommandCenter\CommandCenterGeneralButton.cs" />
+    <Compile Include="CommandCenter\CommandCenterHelpPanel.cs" />
+    <Compile Include="CommandCenter\CommandCenterOptionsPanel.cs" />
+    <Compile Include="CommandCenter\CommandCenterRightButton.cs" />
+    <Compile Include="CommandCenter\CommandCenterZoneButton.cs" />
+    <Compile Include="CommandCenter\CommandCenterZoneList.cs" />
+    <Compile Include="CommandCenter\TimeGateUpgrade.cs" />
+    <Compile Include="CommandCenter\TimeGateUpgradeCategory.cs" />
+    <Compile Include="CommandCenter\TimeGateUpgradeLevel.cs" />
+    <Compile Include="Debug.cs" />
+    <Compile Include="Display\Button\Button.cs" />
+    <Compile Include="Display\Button\ButtonEventArgs.cs" />
+    <Compile Include="Display\Camera.cs" />
+    <Compile Include="Display\Circle.cs" />
+    <Compile Include="Display\DisplayManager.cs" />
+    <Compile Include="Display\DisplayManagerEventReceivers.cs" />
+    <Compile Include="Display\InputVisualComponent.cs" />
+    <Compile Include="Display\Interfaces\IClickable.cs" />
+    <Compile Include="Display\Interfaces\IDraggable.cs" />
+    <Compile Include="Display\Interfaces\IKeyboardInteractable.cs" />
+    <Compile Include="Display\Interfaces\IMouseInteractable.cs" />
+    <Compile Include="Display\Interfaces\IPositionable.cs" />
+    <Compile Include="Display\Interfaces\ISelectable.cs" />
+    <Compile Include="Display\Interfaces\ISliding.cs" />
+    <Compile Include="Display\Interfaces\IStackable.cs" />
+    <Compile Include="Display\Preloader.cs" />
+    <Compile Include="Display\VisualComponent.cs" />
+    <Compile Include="GameInterface\AlertPanel.cs" />
+    <Compile Include="GameInterface\BuildingIcon.cs" />
+    <Compile Include="GameInterface\BuildingPanel.cs" />
+    <Compile Include="GameInterface\BuildingPanelIcons.cs" />
+    <Compile Include="GameInterface\BuildingTypeButton.cs" />
+    <Compile Include="GameInterface\ConstructionPanel\ConstructionPanel.cs" />
+    <Compile Include="GameInterface\ConstructionPanel\ConstructionPanelButton.cs" />
+    <Compile Include="GameInterface\Control Panel\ControlPanel.cs" />
+    <Compile Include="GameInterface\Control Panel\ControlPanelButton.cs" />
+    <Compile Include="GameInterface\Control Panel\GraphBar.cs" />
+    <Compile Include="GameInterface\Control Panel\GraphPanel.cs" />
+    <Compile Include="GameInterface\Control Panel\ResearchPanel.cs" />
+    <Compile Include="GameInterface\GameInterface.cs" />
+    <Compile Include="GameInterface\LeftMenu.cs" />
+    <Compile Include="GameInterface\Map.cs" />
+    <Compile Include="GameInterface\Minimap.cs" />
+    <Compile Include="GameInterface\MissionPannel.cs" />
+    <Compile Include="GameInterface\PanelButton.cs" />
+    <Compile Include="GameInterface\ParametersPanel.cs" />
+    <Compile Include="GameInterface\ResourceBar.cs" />
+    <Compile Include="GameInterface\TimeBar.cs" />
+    <Compile Include="GameInterface\TimeSlider.cs" />
+    <Compile Include="GameInterface\TimeTravelPanel.cs" />
+    <Compile Include="GameInterface\Tooltip.cs" />
+    <Compile Include="GameInterface\YearPanel.cs" />
+    <Compile Include="GameMap\Constructions\BaseConstruction.cs" />
+    <Compile Include="GameMap\Constructions\ConstructionDefinitions.cs" />
+    <Compile Include="GameMap\Constructions\Reservation.cs" />
+    <Compile Include="GameMap\Constructions\Slot.cs" />
+    <Compile Include="GameMap\Constructions\Slot_old.cs" />
+    <Compile Include="GameMap\GameMap.cs" />
+    <Compile Include="GameMap\SelectableComponent.cs" />
+    <Compile Include="GameProcessor\Building Data\BuildingProperties.cs" />
+    <Compile Include="GameProcessor\Building Data\BuildingsBaseBonuses.cs" />
+    <Compile Include="GameProcessor\Building Data\BuildingsBaseProperties.cs" />
+    <Compile Include="GameProcessor\Building Data\PopulationBuildingProperties.cs" />
+    <Compile Include="GameProcessor\GameManager.cs" />
+    <Compile Include="GameProcessor\GameManagerMoney.cs" />
+    <Compile Include="GameProcessor\MGs\MilleniumGoalsSet.cs" />
+    <Compile Include="GameProcessor\Modifier.cs" />
+    <Compile Include="GameProcessor\Population\PopulationManager.cs" />
+    <Compile Include="GameProcessor\Research.cs" />
+    <Compile Include="GameProcessor\ResearchHistory.cs" />
+    <Compile Include="GameProcessor\TimeMachine.cs" />
+    <Compile Include="GameProcessor\Time\TimeManager.cs" />
+    <Compile Include="GeneralControls\CloseButton.cs" />
+    <Compile Include="GeneralControls\InputBox.cs" />
+    <Compile Include="GeneralControls\MessagePanel\MessagePanel.cs" />
+    <Compile Include="GeneralControls\MessagePanel\MessagePanelOKButton.cs" />
+    <Compile Include="GeneralControls\RadioButton.cs" />
+    <Compile Include="GeneralControls\Scrollbar.cs" />
+    <Compile Include="GeneralControls\Timer.cs" />
+    <Compile Include="Input\Input Manager\InputManager.cs" />
+    <Compile Include="Input\Keyboard\KeyboardEventArgs.cs" />
+    <Compile Include="Input\Keyboard\KeyboardManager.cs" />
+    <Compile Include="Input\Mouse\MouseButton.cs" />
+    <Compile Include="Input\Mouse\MouseEventArgs.cs" />
+    <Compile Include="Input\Mouse\MouseManager.cs" />
+    <Compile Include="IO\FontPack.cs" />
+    <Compile Include="IO\FontsCollection.cs" />
+    <Compile Include="IO\GraphicsCollection.cs" />
+    <Compile Include="IO\IOEventArgs.cs" />
+    <Compile Include="IO\IOManager.cs" />
+    <Compile Include="IO\IOManagerEventReceivers.cs" />
+    <Compile Include="IO\TexturePack.cs" />
+    <Compile Include="IO\XMLLoader.cs" />
+    <Compile Include="MainMenu\MainMenu.cs" />
+    <Compile Include="MainMenu\MainMenuButton.cs" />
+    <Compile Include="MainMenu\MainMenuEventArgs.cs" />
+    <Compile Include="MainMenu\MainMenuInputBox.cs" />
+    <Compile Include="MainMenu\MainMenuScrollbar.cs" />
+    <Compile Include="MainMenu\MainMenuUser.cs" />
+    <Compile Include="ProfileManager\ProfileManager.cs" />
+    <Compile Include="ProfileManager\Users\User.cs" />
+    <Compile Include="ProfileManager\Users\UsersList.cs" />
+    <Compile Include="ProfileManager\XMLData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="OperationCronos.cs" />
+    <Compile Include="SoundManager\Mp3Song.cs" />
+    <Compile Include="SoundManager\SoundManager.cs" />
+    <Compile Include="SoundManager\WavSound.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="SpriteText.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cronos.png" />
+    <Content Include="Game.ico" />
+    <Content Include="CommandCenterAnimations.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ConstructionTypes.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GameThumbnail.png" />
+    <Content Include="Interface.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MainMenuAnimations.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Profiles\readme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>117703e7-d9f0-497a-976c-857fb8be302d</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Display\Button\Button.cd" />
+    <None Include="Display\Camera.cd" />
+    <None Include="Display\DisplayManager.cd" />
+    <None Include="Display\VisualComponent.cd" />
+    <None Include="Input\Mouse\MouseManager.cd" />
+    <None Include="IO\GraphicsCollection.cd" />
+    <None Include="IO\IOManager.cd" />
+    <None Include="IO\XMLLoader.cd" />
+    <None Include="ProfileManager\Users\Users.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

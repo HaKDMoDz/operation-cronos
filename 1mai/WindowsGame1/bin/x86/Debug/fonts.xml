@@ -1,0 +1,77 @@
+﻿<root>
+  <font>
+    <id>0</id>
+    <name>Courier New 14</name>
+    <resource>Fonts\\courier14</resource>
+  </font>
+  <font>
+    <id>1</id>
+    <name>Courier New 10</name>
+    <resource>Fonts\\courier10</resource>
+  </font>
+  <font>
+    <id>2</id>
+    <name>Trebuchet MS 14</name>
+    <resource>Fonts\\trebuchet14</resource>
+  </font>
+  <font>
+    <id>3</id>
+    <name>Lindsey 24 Bold</name>
+    <resource>Fonts\\lindsey24b</resource>
+  </font>
+  <font>
+    <id>4</id>
+    <name>Robotica 72 Bold</name>
+    <resource>Fonts\\robotica72b</resource>
+  </font>
+  <font>
+    <id>5</id>
+    <name>Cry Uncial 18</name>
+    <resource>Fonts\\cryuncial18</resource>
+  </font>
+  <font>
+    <id>6</id>
+    <name>Agent Orange 14</name>
+    <resource>Fonts\\agentorange14</resource>
+  </font>
+  <font>
+    <id>7</id>
+    <name>Santa's Sleigh 20</name>
+    <resource>Fonts\\santassleigh20</resource>
+  </font>
+  <font>
+    <id>8</id>
+    <name>Apple Butter 20</name>
+    <resource>Fonts\\applebutter20</resource>
+  </font>
+  <font>
+    <id>9</id>
+    <name>Times New Roman 14</name>
+    <resource>Fonts\\timesnewroman14</resource>
+  </font>
+  <font>
+    <id>10</id>
+    <name>Calibri 11</name>
+    <resource>Fonts\\calibri11</resource>
+  </font>
+  <font>
+    <id>11</id>
+    <name>Calibri 8</name>
+    <resource>Fonts\\calibri8</resource>
+  </font>
+  <font>
+    <id>12</id>
+    <name>MainMenu</name>
+    <resource>Fonts\\MainMenu</resource>
+  </font>
+  <font>
+    <id>13</id>
+    <name>MainMenuNewUserMessage</name>
+    <resource>Fonts\\MainMenuNewUserMessage</resource>
+  </font>
+  <font>
+    <id>14</id>
+    <name>Calibri 10</name>
+    <resource>Fonts\\calibri10</resource>
+  </font>
+</root>

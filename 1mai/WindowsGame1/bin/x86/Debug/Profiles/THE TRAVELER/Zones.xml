@@ -1,0 +1,26 @@
+<root>
+  <Zone0>
+    <Energy_Quantum>1.064797</Energy_Quantum>
+    <Education_Quantum>1.064797</Education_Quantum>
+    <Economy_Quantum>1.064797</Economy_Quantum>
+    <Environment_Quantum>1.064797</Environment_Quantum>
+    <Health_Quantum>1.064797</Health_Quantum>
+    <Food_Quantum>1.064797</Food_Quantum>
+  </Zone0>
+  <Zone1>
+    <Energy_Quantum>1.064797</Energy_Quantum>
+    <Education_Quantum>1.064797</Education_Quantum>
+    <Economy_Quantum>1.064797</Economy_Quantum>
+    <Environment_Quantum>1.064797</Environment_Quantum>
+    <Health_Quantum>1.064797</Health_Quantum>
+    <Food_Quantum>1.064797</Food_Quantum>
+  </Zone1>
+  <Zone2>
+    <Energy_Quantum>1.064797</Energy_Quantum>
+    <Education_Quantum>1.064797</Education_Quantum>
+    <Economy_Quantum>1.064797</Economy_Quantum>
+    <Environment_Quantum>1.064797</Environment_Quantum>
+    <Health_Quantum>1.064797</Health_Quantum>
+    <Food_Quantum>1.064797</Food_Quantum>
+  </Zone2>
+</root>

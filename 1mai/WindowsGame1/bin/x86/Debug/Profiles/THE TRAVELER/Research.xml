@@ -1,0 +1,333 @@
+<root>
+  <research>
+    <year>1816</year>
+    <completionYear>0</completionYear>
+    <bonus>1.01</bonus>
+    <cost>2000</cost>
+    <name>THE STETHOSCOPE</name>
+    <description> Rene Laennec invents the stethoscope and develops a method of diagnosing diseases of the chest.    Increases health by 1%</description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1846</year>
+    <completionYear>0</completionYear>
+    <bonus>1.03</bonus>
+    <cost>7000</cost>
+    <name>GENERAL ANESTHETIC</name>
+    <description> William Morton administers the anesthetic to the patient from a specially designed glass inhaler which contains an ether-soaked sponge    Increases health by 3% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1895</year>
+    <completionYear>0</completionYear>
+    <bonus>1.06</bonus>
+    <cost>16000</cost>
+    <name>X-RAYS</name>
+    <description> Wilhelm Rontgenrefuses to patent his discovery or realize any financial gain from it, preferring that the world freely benefit from his research. He dies in poverty   Increases health by 6% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1903</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>12000</cost>
+    <name>ELECTROCARDIOGRAPH (ECG) </name>
+    <description> Willem Einthoven devises an instrument to record the heart's electrical impulses.   Increases health by 5% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1928</year>
+    <completionYear>0</completionYear>
+    <bonus>1.1</bonus>
+    <cost>20000</cost>
+    <name>PENICILLIN</name>
+    <description> Alexander Fleming accidentally discovers a blue mold growing on some bacteria left in Petri dish. Where the mold is, the bacteria have been killed   Increases health by 10% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1953</year>
+    <completionYear>0</completionYear>
+    <bonus>1.04</bonus>
+    <cost>45000</cost>
+    <name>HEART-LUNG MACHINE</name>
+    <description> John H. Gibbon,is the first to use a mechanical heart and blood purifier in surgery, completely taking over the patient's heart and lung functions for 29 minutes.   Increases health by 4% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1973</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>150000</cost>
+    <name>DNA CLONING </name>
+    <description> Synthetic insulin for diabetics, a clot-dissolving agent for heart attack victims, and a growth hormone for underdeveloped children.   Increases health by 5% </description>
+    <ResearchType>Health</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1810</year>
+    <completionYear>0</completionYear>
+    <bonus>1.03</bonus>
+    <cost>2500</cost>
+    <name>STEAM PRINTING PRESS</name>
+    <description> Frederick Koenig had designed a steam press "much like a hand press connected to a steam engine that was , capable of 1,100 impressions per hour.    Increases education by 3% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1835</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>3000</cost>
+    <name>THE MECHANICAL CALCULATOR</name>
+    <description> Charles Babbage wanted a machine that could do the most difficult algebraic manipulations with the help of a 'memory' of two hundred groups of each 25 cogwheels.   Increases education by 5% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1867</year>
+    <completionYear>0</completionYear>
+    <bonus>1.01</bonus>
+    <cost>2000</cost>
+    <name>TYPEWRITER</name>
+    <description> Christopher Latham Sholes, with assistance from Carlos Glidden and Samuel Soule, patented what was to be the first useful typewriter   Increases education by 1% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1884</year>
+    <completionYear>0</completionYear>
+    <bonus>1.01</bonus>
+    <cost>2500</cost>
+    <name>FOUNTAIN PEN</name>
+    <description> Early inventors observed the apparent natural ink reserve found in the hollow channel of a bird's feather and tried to produce a similar effect, with a man-made pen that would hold more ink and not require constant dipping into the ink well.   Increases education by 1% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1981</year>
+    <completionYear>0</completionYear>
+    <bonus>1.06</bonus>
+    <cost>35000</cost>
+    <name>FIRST PC</name>
+    <description>The IBM Personal Computer, commonly known as the IBM PC, is the original version and progenitor of the IBM PC compatible hardware platform.   Increases education by 6% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1990</year>
+    <completionYear>0</completionYear>
+    <bonus>1.03</bonus>
+    <cost>70000</cost>
+    <name>WORLD WIDE WEB</name>
+    <description>It was founded at the Massachusetts Institute of Technology Laboratory for Computer Science (MIT/LCS) with support from the Defense Advanced Research Projects Agency which had pioneered the Internet.   Increases education by 3% </description>
+    <ResearchType>Education</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1858</year>
+    <completionYear>0</completionYear>
+    <bonus>1.04</bonus>
+    <cost>25000</cost>
+    <name>INTERNAL COMBUSTION ENGINE</name>
+    <description> The expansion of the high temperature and pressure gases, which are produced by the combustion, directly applies force to a movable component of the engine, such as the pistons or turbine blades and by moving it over a distance, generate useful mechanical energy.   Increases economy by 4% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1866</year>
+    <completionYear>0</completionYear>
+    <bonus>1.1</bonus>
+    <cost>150000</cost>
+    <name>DYNAMITE</name>
+    <description> Alfred Nobel invents dynamite.It is mainly used in the mining, quarrying, and construction industries and has had historical use in warfare..   Increases economy by 10% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1883</year>
+    <completionYear>0</completionYear>
+    <bonus>1.02</bonus>
+    <cost>6000</cost>
+    <name>CASH REGISTER</name>
+    <description> James Ritty invention what was nicknamed the "Incorruptible Cashier" or the first working, mechanical cash register.   Increases economy by 2% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1884</year>
+    <completionYear>0</completionYear>
+    <bonus>1.04</bonus>
+    <cost>70000</cost>
+    <name>STEAM TURBINE</name>
+    <description> Charles Parson patents the steam turbine. is a mechanical device that extracts thermal energy from pressurized steam, and converts it into rotary motion..   Increases economy by 4% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1885</year>
+    <completionYear>0</completionYear>
+    <bonus>1.02</bonus>
+    <cost>25000</cost>
+    <name>ELECTRIC ARC WELDER</name>
+    <description> Nikolai Benardos and Stanislav Olszewski were granted a patent for an electric arc welder with a carbon electrode called the Electrogefest.   Increases economy by 2% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1969</year>
+    <completionYear>0</completionYear>
+    <bonus>1.01</bonus>
+    <cost>40000</cost>
+    <name>ATM</name>
+    <description> Although little is known of this first device, it seems to have been activated with a credit card rather than accessing current account balances.   Increases economy by 1% </description>
+    <ResearchType>Economy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1810</year>
+    <completionYear>0</completionYear>
+    <bonus>1.02</bonus>
+    <cost>2500</cost>
+    <name>STEEL CAN</name>
+    <description> Peter Durand invents the tin can. steel can, or a can, is an air-tight container for the distribution or storage of goods, composed of thin metal.   Increases food by 2% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1831</year>
+    <completionYear>0</completionYear>
+    <bonus>1.04</bonus>
+    <cost>5000</cost>
+    <name>REAPER</name>
+    <description> American,Cyrus McCormick invents the first commercially successful reaper increasing farm productivity..   Increases food by 4% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1856</year>
+    <completionYear>0</completionYear>
+    <bonus>1.02</bonus>
+    <cost>7000</cost>
+    <name>PASTEURISATION</name>
+    <description> Louis Pasteur invents pasteurisation. is a process which slows microbial growth in food.   Increases food by 2% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1904</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>30000</cost>
+    <name>THE TRACTOR</name>
+    <description> Benjamin Holt invents vehicle specifically designed to deliver a high  torque at slow speeds, for the purposes of hauling a trailer or machinery used in agriculture or construction.   Increases food by 5% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1908</year>
+    <completionYear>0</completionYear>
+    <bonus>1.03</bonus>
+    <cost>70000</cost>
+    <name>THE HABER PROCESS</name>
+    <description> This process is important because ammonia is difficult to produce on an industrial scale, and the fertilizer generated from the ammonia is responsible for sustaining one-third of the Earth's population.   Increases food by 3% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1988</year>
+    <completionYear>0</completionYear>
+    <bonus>1.1</bonus>
+    <cost>200000</cost>
+    <name>GENETICALLY ENGINEERED ANIMALS</name>
+    <description>The first patent for a genetically engineered animal is issued to Harvard University researchers Philip Leder and Timothy Stewart.   Increases food by 10% </description>
+    <ResearchType>Food</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1920</year>
+    <completionYear>0</completionYear>
+    <bonus>1.03</bonus>
+    <cost>35000</cost>
+    <name>FUEL CELL</name>
+    <description> Fuel cell research in Germany paved the way to the development of the carbonate cycle and solid oxide fuel cells of today..   Increases environment by 3% </description>
+    <ResearchType>Environment</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>1992</year>
+    <completionYear>0</completionYear>
+    <bonus>1.1</bonus>
+    <cost>250000</cost>
+    <name>WATER-BASED FUELS</name>
+    <description> Reduce pollutant emissions an average of 50 percent, while improving efficiency in vehicles over 25 percent.* The fuels are safer than gasoline, being flame-resistant outside the engine.   Increases environment by 10% </description>
+    <ResearchType>Environment</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>2000</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>200000</cost>
+    <name>BIODEGRADABLE PLASTICS</name>
+    <description> This can be achieved by enabling microorganisms in the environment to metabolize the molecular structure of plastic films to produce an inert humus-like material that is less harmful to the environment.   Increases environment by 5% </description>
+    <ResearchType>Environment</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>2005</year>
+    <completionYear>0</completionYear>
+    <bonus>1.15</bonus>
+    <cost>500000</cost>
+    <name>NANO-PARTICULATE MEMBRANE BIOREACTOR</name>
+    <description> Can cheaply make sewage and waste water clean enough to drink and could cut water use by 60%.   Increases environment by 15% </description>
+    <ResearchType>Environment</ResearchType>
+    <done>False</done>
+  </research>
+    <research>
+    <year>1910</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>200000</cost>
+    <name>WAVE POWER</name>
+    <description> Yoshio Masuda'shas tested various concepts of wave energy devices at sea, with several hundred units used to power navigation lights.   Increases environment by 5% </description>
+    <ResearchType>Energy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>2004</year>
+    <completionYear>0</completionYear>
+    <bonus>1.15</bonus>
+    <cost>800000</cost>
+    <name>COLD FUSION</name>
+    <description> Refers to nuclear fusion of atoms at conditions close to room temperature, in contrast to the conditions of well-understood fusion reactions such as those inside stars and high energy experiments.   Increases energy by 15% </description>
+    <ResearchType>Energy</ResearchType>
+    <done>False</done>
+  </research>
+    <research>
+    <year>2005</year>
+    <completionYear>0</completionYear>
+    <bonus>1.05</bonus>
+    <cost>250000</cost>
+    <name>CTV</name>
+    <description> An infrared-sensitive material that's five times more efficient at turning the sun's power into electrical energy than current methods.   Increases energy by 5% </description>
+    <ResearchType>Energy</ResearchType>
+    <done>False</done>
+  </research>
+  <research>
+    <year>2008</year>
+    <completionYear>0</completionYear>
+    <bonus>1.1</bonus>
+    <cost>400000</cost>
+    <name>AIRBORNE WIND POWER</name>
+    <description> As you get higher, the wind gets stronger. Harvesting just 1% of those high-altitude breezes could produce enough power for everyone on Earth. .   Increases energy by 10% </description>
+    <ResearchType>Energy</ResearchType>
+    <done>False</done>
+  </research>
+
+</root>

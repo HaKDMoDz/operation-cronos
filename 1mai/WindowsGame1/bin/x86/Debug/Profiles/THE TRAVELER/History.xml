@@ -1,0 +1,30 @@
+<root>
+  <slot>
+    <X>759</X>
+    <Y>573</Y>
+    <constructionType>Population</constructionType>
+    <reservation>
+      <constructionName>PopulationVillage</constructionName>
+      <startingYear>1888</startingYear>
+      <duration>500</duration>
+      <upgradeYear>0</upgradeYear>
+      <isUpgraded>False</isUpgraded>
+      <isPopulationUpgraded>False</isPopulationUpgraded>
+      <isDestroyed>False</isDestroyed>
+    </reservation>
+  </slot>
+  <slot>
+    <X>199</X>
+    <Y>544</Y>
+    <constructionType>Energy</constructionType>
+    <reservation>
+      <constructionName>EnergyGeo</constructionName>
+      <startingYear>1918</startingYear>
+      <duration>50</duration>
+      <upgradeYear>0</upgradeYear>
+      <isUpgraded>False</isUpgraded>
+      <isPopulationUpgraded>False</isPopulationUpgraded>
+      <isDestroyed>False</isDestroyed>
+    </reservation>
+  </slot>
+</root>

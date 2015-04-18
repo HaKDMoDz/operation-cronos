@@ -1,0 +1,18 @@
+E:\Imagine Cup 2010\WindowsGame1\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adina\Desktop\ReadMe and Summary\WindowsGame1\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\For Round 1\Operation Cronos Round 1\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\Adina\Working\V14 (Round 1 Missions Cleaned)\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\8aprilie - Round1 Cleaned\8aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\Adina\Working\V14 (Partially loading profile and partial parameters\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\Adina\Working\V15 (Partially loading profile and partial parameters)\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\13aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\JOC\V17-21aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\21aprilie_New\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\JOC\V18-25aprilie\21aprilie_New\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\25aprilie\25aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cronos\Adina\Working\V18\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\29aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adina\Desktop\29aprilie\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adina\Desktop\1mai\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Imagine Cup 2010\OperationCronos\1mai\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adina\Desktop\OperationCronos\1mai\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
